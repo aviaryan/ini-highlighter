@@ -1,0 +1,46 @@
+<html>
+
+<head>
+  <title>Testing Ini Brush</title>
+    
+    <!-- include main css-->
+    <link type="text/css" rel="stylesheet" href="http://rawgithub.com/avi-aryan/highlighter-ahk-zenburn/master/scripts/shCore.css"/>
+    <!-- include style css(s) you want-->
+    <link type="text/css" rel="stylesheet" href="http://rawgithub.com/avi-aryan/highlighter-ahk-zenburn/master/styles/shThemeZenburn-A.css"/>
+
+    <!-- include Main brush-->
+    <script type="text/javascript" src="http://rawgithub.com/avi-aryan/highlighter-ahk-zenburn/master/scripts/shCore.js"></script>
+    <!-- inluclude syntax brushes you want -->
+    <script type="text/javascript" src="scripts/shBrushIni.js"></script>
+    
+    <!-- activate the syntax highlighter -->
+    <script type="text/javascript">
+	SyntaxHighlighter.defaults['toolbar'] = true;
+        SyntaxHighlighter.all();
+    </script>
+    <!-- Done -->
+
+    <!-- some comments 
+    The files shCore.css and shCore.js are hosted on my another repo, these files are default and available in Syntax highlighter package
+    The style css 'shThemeZenburn-A.css' is a part of one of my other project (highlighter-ahk-zenburn) and has been used in this example for demonstration purposes.
+    -->
+
+</head>
+
+<body>
+<pre class="brush: ini;">
+[Section]
+key=1
+anotherkey=some_value
+
+[another_section]
+key=dotnet            ;comment
+key2=some other=thing
+goldfish=white
+;comments
+
+</pre>
+
+</body>
+
+</html>
