@@ -3,8 +3,8 @@
  * http://alexgorbatchev.com/
  *
  * Ini Brush
- * homepage:   http://avi-aryan.github.io
- * git repo:   http://github.com/avi-aryan/highlighter-ahk-zenburn
+ * homepage:   http://aviaryan.github.io
+ * git repo:   https://github.com/aviaryan/ini-highlighter
  *
  */
 
