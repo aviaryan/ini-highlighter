@@ -13,9 +13,9 @@
 
 this.regexList = [
 { regex: /\[.*?\]/gm, css: 'functions' },
-{ regex: /^.*?\=/gm, css: 'variable' },
+{ regex: /^.*?(?=\=)/gm, css: 'variable' },
 //{ regex: /\=.*?/gm, css: 'string' },
-{ regex: /[^.];.*$/gm, css: 'comments'}
+{ regex: /^\s*;.*$/gm, css: 'comments'}
 ];
 
 };

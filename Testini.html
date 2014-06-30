@@ -6,7 +6,7 @@
     <!-- include main css-->
     <link type="text/css" rel="stylesheet" href="https://rawgithub.com/avi-aryan/highlighter-ahk-zenburn/master/styles/shCore.css"/>
     <!-- include style css(s) you want-->
-    <link type="text/css" rel="stylesheet" href="https://rawgithub.com/avi-aryan/highlighter-ahk-zenburn/master/styles/shThemeZenburn-A.css"/>
+    <link type="text/css" rel="stylesheet" href="https://rawgithub.com/avi-aryan/highlighter-ahk-zenburn/master/styles/shThemeGitHub.css"/>
 
     <!-- include Main brush-->
     <script type="text/javascript" src="https://rawgithub.com/avi-aryan/highlighter-ahk-zenburn/master/scripts/shCore.js"></script>
@@ -22,22 +22,23 @@
 
     <!-- some comments 
     The files shCore.css and shCore.js are hosted on my another repo, these files are default and available in Syntax highlighter package
-    The style css 'shThemeZenburn-A.css' is a part of one of my other project (highlighter-ahk-zenburn) and has been used in this example for demonstration purposes.
+    The style css 'shThemeGithub.css' & 'shThemeZenburn-A.css' is a part of one of my other project (highlighter-ahk-zenburn) and has been used in this example for demonstration purposes.
     -->
 
 </head>
 
 <body>
 <pre class="brush: ini;">
+; comment - Ini starts
 [Section]
 key=1
 anotherkey=some_value
 
 [another_section]
-key=dotnet            ;comment
+key=dotnet            ; Inline comments not part of ini standard (http://stackoverflow.com/a/19550081/2295672)
 key2=some other=thing
 goldfish=white
-;comments
+;more comments
 
 </pre>
 
